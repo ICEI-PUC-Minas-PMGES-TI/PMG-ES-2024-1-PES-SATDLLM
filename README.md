@@ -1,4 +1,4 @@
-# PMG-ES-2024-1-PES-SATDLLM
+# On the Identification of Self-Admitted Technical Debt with Large Language Models
 
 ## Overview
 
@@ -76,3 +76,5 @@ For any questions or issues regarding this repository, please contact any of the
 - pedro.lambert@sga.pucminas.br
 - lucila@pucminas.br
 - laertexavier@pucminas.br
+
+**Affiliation:** Pontifical Catholic University of Minas Gerais (PUC Minas), Bachelor in Software Engineering.
