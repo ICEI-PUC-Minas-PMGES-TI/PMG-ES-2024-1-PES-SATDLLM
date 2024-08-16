@@ -1,0 +1,5 @@
+pip install google-generativeai
+pip install openai
+pip install langchain langchain-core langsmith langchain_experimental
+pip install langgraph langchain-community langchainhub grandalf
+pip install anthropic langchain-anthropic
