@@ -31,8 +31,8 @@ The full version of the paper is available in this repository. You can access it
 ```
 
 ## Requirements
-
-To reproudce the study, you need the following dependencies installed:
+*Python version must be >= 3.10*
+To reproduce the study, you need the following dependencies installed:
 ```bash
 pip install google-generativeai
 pip install openai
@@ -51,7 +51,7 @@ cd <repository-folder>
 ```
 
 2. Install Dependencies:
-Make sure you have Python installed. Then install the required dependencies:
+Make sure you have Python installed *(Python version must be >= 3.10)*. Then install the required dependencies:
 ```bash
 pip install -r artifacts/requirements.txt
 ```
