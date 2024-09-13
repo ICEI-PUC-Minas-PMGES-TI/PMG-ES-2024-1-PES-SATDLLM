@@ -65,11 +65,13 @@ python3 ./main_gen_study.py
 ```
 
 ## Data
-The artifacts/data folder contains all the datasets used in the study:
-- all_issues.csv: Contains every issue used in the study, along with labels indicating whether it is considered technical debt or not.
-- apache_traffic_TD_dataset.csv, owncloud_TD_dataset.csv, ubc_thunder_TD_dataset.csv, va_gov_debt_TD_dataset.csv: Contain issues from specific repositories, as described in the paper.
+The dataset comes from the study [Technical Debt Classification in Issue Trackers using Natural Language Processing based on Transformers](https://ieeexplore.ieee.org/abstract/document/10207085) and contains issues from 4 different open source projects. The output data includes the text that was sent to the LLM, the label of the issue (indicating if it was technical debt (1) or not (0)), and the LLM's prediction.
 
-Results for each LLM and prompt combination are saved in separate CSV files within the results_{{DATASET}} folders.
+The `artifacts/data` folder contains all the datasets used in the study:
+- `all_issues.csv`: Contains every issue used in the study, along with labels indicating whether it is considered technical debt or not.
+- `apache_traffic_TD_dataset.csv`, `owncloud_TD_dataset.csv`, `ubc_thunder_TD_dataset.csv`, `va_gov_debt_TD_dataset.csv`: Contain issues from specific repositories, as described in the paper.
+
+Results for each LLM and prompt combination are saved in separate CSV files within the `results_{{DATASET}}` folders.
 
 ## Contact
 For any questions or issues regarding this repository, please contact any of the authors at:
